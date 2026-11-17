@@ -1,0 +1,11 @@
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.pdb
+*.ilk
+# REA evidence snapshots can contain machine-specific absolute input paths.
+analysis/*.json

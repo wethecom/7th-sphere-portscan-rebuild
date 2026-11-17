@@ -1,0 +1,1878 @@
+// FUNCTION 0040133a FUN_0040133a
+
+void FUN_0040133a(void)
+
+{
+  Ordinal_706();
+  return;
+}
+
+
+
+// FUNCTION 0040134c FUN_0040134c
+
+void FUN_0040134c(void)
+
+{
+  Ordinal_706();
+  return;
+}
+
+
+
+// FUNCTION 0040156f FUN_0040156f
+
+void FUN_0040156f(void)
+
+{
+  FUN_00401590();
+  return;
+}
+
+
+
+// FUNCTION 00401581 FUN_00401581
+
+void FUN_00401581(void)
+
+{
+  Ordinal_706();
+  return;
+}
+
+
+
+// FUNCTION 00401590 FUN_00401590
+
+void FUN_00401590(void)
+
+{
+  undefined4 *unaff_FS_OFFSET;
+  undefined4 local_10;
+  undefined *puStack_c;
+  undefined4 local_8;
+
+  local_10 = *unaff_FS_OFFSET;
+  puStack_c = &DAT_004015c7;
+  *unaff_FS_OFFSET = &local_10;
+  local_8 = 0xffffffff;
+  FUN_004015d1();
+  *unaff_FS_OFFSET = local_10;
+  return;
+}
+
+
+
+// FUNCTION 004015d1 FUN_004015d1
+
+void FUN_004015d1(void)
+
+{
+  Ordinal_538();
+  return;
+}
+
+
+
+// FUNCTION 00401639 FUN_00401639
+
+void FUN_00401639(void)
+
+{
+  Ordinal_538();
+  return;
+}
+
+
+
+// FUNCTION 00401867 FUN_00401867
+
+void FUN_00401867(void)
+
+{
+  Ordinal_706();
+  return;
+}
+
+
+
+// FUNCTION 004018c0 FUN_004018c0
+
+undefined4 * __fastcall FUN_004018c0(undefined4 *param_1)
+
+{
+  undefined4 *unaff_FS_OFFSET;
+  undefined4 local_10;
+  undefined *puStack_c;
+  undefined4 local_8;
+
+  local_10 = *unaff_FS_OFFSET;
+  local_8 = 0xffffffff;
+  puStack_c = &DAT_0040190d;
+  *unaff_FS_OFFSET = &local_10;
+  Ordinal_504(0);
+  *param_1 = &PTR_LAB_00404080;
+  *unaff_FS_OFFSET = local_10;
+  return param_1;
+}
+
+
+
+// FUNCTION 00401979 FUN_00401979
+
+void FUN_00401979(void)
+
+{
+  Ordinal_721();
+  return;
+}
+
+
+
+// FUNCTION 004019a0 FUN_004019a0
+
+void FUN_004019a0(void)
+
+{
+  FUN_004018c0((undefined4 *)&DAT_004053a8);
+  return;
+}
+
+
+
+// FUNCTION 004019b0 FUN_004019b0
+
+void FUN_004019b0(void)
+
+{
+  FUN_004039d0((_onexit_t)&LAB_004019c0);
+  return;
+}
+
+
+
+// FUNCTION 004019fb FUN_004019fb
+
+void FUN_004019fb(void)
+
+{
+  Ordinal_721();
+  return;
+}
+
+
+
+// FUNCTION 00401a9b FUN_00401a9b
+
+void FUN_00401a9b(void)
+
+{
+  undefined4 *unaff_FS_OFFSET;
+  undefined4 local_10;
+  undefined *puStack_c;
+  int local_8;
+
+  local_10 = *unaff_FS_OFFSET;
+  puStack_c = &DAT_00401b1d;
+  *unaff_FS_OFFSET = &local_10;
+  local_8._0_1_ = 1;
+  local_8._1_3_ = 0;
+  FUN_00401b04();
+  local_8 = (uint)local_8._1_3_ << 8;
+  FUN_00401b12();
+  local_8 = 0xffffffff;
+  FUN_00401b27();
+  *unaff_FS_OFFSET = local_10;
+  return;
+}
+
+
+
+// FUNCTION 00401b04 FUN_00401b04
+
+void FUN_00401b04(void)
+
+{
+  Ordinal_706();
+  return;
+}
+
+
+
+// FUNCTION 00401b12 FUN_00401b12
+
+void FUN_00401b12(void)
+
+{
+  FUN_00401590();
+  return;
+}
+
+
+
+// FUNCTION 00401b27 FUN_00401b27
+
+void FUN_00401b27(void)
+
+{
+  Ordinal_570();
+  return;
+}
+
+
+
+// FUNCTION 00401c09 FUN_00401c09
+
+void FUN_00401c09(void)
+
+{
+  Ordinal_570();
+  return;
+}
+
+
+
+// FUNCTION 00401c50 FUN_00401c50
+
+undefined4 * __thiscall FUN_00401c50(void *this,undefined4 param_1)
+
+{
+  char *name;
+  HINSTANCE hInstance;
+  HICON pHVar1;
+  undefined4 *unaff_FS_OFFSET;
+  LPCSTR lpIconName;
+  int iVar2;
+  undefined4 local_10;
+  undefined *puStack_c;
+  undefined4 local_8;
+
+  local_10 = *unaff_FS_OFFSET;
+  local_8 = 0xffffffff;
+  puStack_c = &DAT_00401d51;
+  *unaff_FS_OFFSET = &local_10;
+  Ordinal_315(0x66,param_1);
+  local_8 = 0;
+  Ordinal_274();
+  local_8._1_3_ = (undefined3)((uint)local_8 >> 8);
+  *(undefined ***)((int)this + 0x68) = &PTR_LAB_00404000;
+  local_8._0_1_ = 2;
+  Ordinal_486();
+  local_8 = CONCAT31(local_8._1_3_,3);
+  iVar2 = 0x32;
+  *(undefined ***)this = &PTR_LAB_00404328;
+  *(undefined4 *)((int)this + 0x60) = 0;
+  *(undefined4 *)((int)this + 100) = 0;
+  name = (char *)Ordinal_2557(0x32,0x32);
+  iVar2 = gethostname(name,iVar2);
+  *(undefined4 *)((int)this + 0x88) = 0x10000;
+  *(int *)((int)this + 0x170) = iVar2;
+  DAT_004053a4 = 0;
+  *(undefined4 *)((int)this + 0x170) = 1;
+  *(undefined4 *)((int)this + 0x184) = 0;
+  Ordinal_1035();
+  lpIconName = (LPCSTR)0x80;
+  hInstance = (HINSTANCE)Ordinal_1014(0x80,0xe,0x80);
+  pHVar1 = LoadIconA(hInstance,lpIconName);
+  *(HICON *)((int)this + 0x188) = pHVar1;
+  *unaff_FS_OFFSET = local_10;
+  return this;
+}
+
+
+
+// FUNCTION 00401dd4 FUN_00401dd4
+
+void FUN_00401dd4(void)
+
+{
+  Ordinal_706();
+  return;
+}
+
+
+
+// FUNCTION 00401de2 FUN_00401de2
+
+void FUN_00401de2(void)
+
+{
+  FUN_00401590();
+  return;
+}
+
+
+
+// FUNCTION 00401df7 FUN_00401df7
+
+void FUN_00401df7(void)
+
+{
+  Ordinal_570();
+  return;
+}
+
+
+
+// FUNCTION 00401fe7 FUN_00401fe7
+
+void FUN_00401fe7(void)
+
+{
+  Ordinal_706();
+  return;
+}
+
+
+
+// FUNCTION 004026b0 FUN_004026b0
+
+void __fastcall FUN_004026b0(int *param_1)
+
+{
+  int iVar1;
+  int iVar2;
+
+  if (param_1[0x19] == 0) {
+    iVar1 = Ordinal_2707(0x3ed);
+    iVar2 = Ordinal_2707(0x3ec);
+    SendMessageA(*(HWND *)(iVar2 + 0x20),0xf2,0,0);
+    SendMessageA(*(HWND *)(iVar2 + 0x20),0xf3,1,0);
+    SendMessageA(*(HWND *)(iVar1 + 0x20),0xf2,0,0);
+    SendMessageA(*(HWND *)(iVar1 + 0x20),0xf3,0,0);
+    return;
+  }
+  (**(code **)(*param_1 + 0xd8))();
+  return;
+}
+
+
+
+// FUNCTION 00402730 FUN_00402730
+
+void __fastcall FUN_00402730(int *param_1)
+
+{
+  char cVar1;
+  char *_Memory;
+  int iVar2;
+  uint uVar3;
+  uint uVar4;
+  char *unaff_ESI;
+  char *pcVar5;
+  void *unaff_EDI;
+  char *pcVar6;
+  int iVar7;
+  int iVar8;
+
+  malloc(0xc);
+  _Memory = malloc(0x3c);
+  Ordinal_2707(0x3ed);
+  Ordinal_2707(0x3ec);
+  _itoa(param_1[0x5c],unaff_ESI,10);
+  uVar3 = 0xffffffff;
+  pcVar5 = s_0__SCAN_HALTED_ON_PORT__00405178;
+  do {
+    pcVar6 = pcVar5;
+    if (uVar3 == 0) break;
+    uVar3 = uVar3 - 1;
+    pcVar6 = pcVar5 + 1;
+    cVar1 = *pcVar5;
+    pcVar5 = pcVar6;
+  } while (cVar1 != '\0');
+  uVar3 = ~uVar3;
+  pcVar5 = pcVar6 + -uVar3;
+  pcVar6 = _Memory;
+  for (uVar4 = uVar3 >> 2; uVar4 != 0; uVar4 = uVar4 - 1) {
+    *(undefined4 *)pcVar6 = *(undefined4 *)pcVar5;
+    pcVar5 = pcVar5 + 4;
+    pcVar6 = pcVar6 + 4;
+  }
+  for (uVar3 = uVar3 & 3; uVar3 != 0; uVar3 = uVar3 - 1) {
+    *pcVar6 = *pcVar5;
+    pcVar5 = pcVar5 + 1;
+    pcVar6 = pcVar6 + 1;
+  }
+  uVar3 = 0xffffffff;
+  do {
+    pcVar5 = unaff_ESI;
+    if (uVar3 == 0) break;
+    uVar3 = uVar3 - 1;
+    pcVar5 = unaff_ESI + 1;
+    cVar1 = *unaff_ESI;
+    unaff_ESI = pcVar5;
+  } while (cVar1 != '\0');
+  uVar3 = ~uVar3;
+  pcVar5 = pcVar5 + -uVar3;
+  pcVar6 = _Memory + 0x1a;
+  for (uVar4 = uVar3 >> 2; uVar4 != 0; uVar4 = uVar4 - 1) {
+    *(undefined4 *)pcVar6 = *(undefined4 *)pcVar5;
+    pcVar5 = pcVar5 + 4;
+    pcVar6 = pcVar6 + 4;
+  }
+  for (uVar3 = uVar3 & 3; uVar3 != 0; uVar3 = uVar3 - 1) {
+    *pcVar6 = *pcVar5;
+    pcVar5 = pcVar5 + 1;
+    pcVar6 = pcVar6 + 1;
+  }
+  iVar2 = Ordinal_2707(0x3f2);
+  SendMessageA(*(HWND *)(iVar2 + 0x20),0x181,0xffffffff,(LPARAM)_Memory);
+  free(unaff_EDI);
+  free(_Memory);
+  param_1[0x19] = 0;
+  KillTimer((HWND)param_1[8],param_1[0x18]);
+  iVar8 = 0;
+  iVar7 = 0xf0;
+  iVar2 = Ordinal_5139(0x3ff,0xf0,0,0);
+  if (iVar2 != 0) {
+    (**(code **)(*param_1 + 0xe0))();
+  }
+  iVar2 = Ordinal_5139(0x3f8,0xf0,0,0);
+  if (iVar2 != 0) {
+    (**(code **)(*param_1 + 0xdc))();
+  }
+  SendMessageA(*(HWND *)(iVar7 + 0x20),0xf2,0,0);
+  SendMessageA(*(HWND *)(iVar7 + 0x20),0xf3,1,0);
+  SendMessageA(*(HWND *)(iVar8 + 0x20),0xf2,0,0);
+  SendMessageA(*(HWND *)(iVar8 + 0x20),0xf3,0,0);
+  return;
+}
+
+
+
+// FUNCTION 004028c0 FUN_004028c0
+
+undefined4 FUN_004028c0(char *param_1,_union_1226 *param_2)
+
+{
+  ulong uVar1;
+  hostent *phVar2;
+  char *pcVar3;
+
+  uVar1 = inet_addr(param_1);
+  if (uVar1 == 0xffffffff) {
+    phVar2 = gethostbyname(param_1);
+    if (phVar2 == (hostent *)0x0) {
+      return 0xffff;
+    }
+    *param_2 = *(_union_1226 *)*phVar2->h_addr_list;
+  }
+  else {
+    uVar1 = inet_addr(param_1);
+    param_2->S_addr = uVar1;
+  }
+  pcVar3 = inet_ntoa((in_addr)param_2->S_un_b);
+  *(undefined4 *)param_1 = *(undefined4 *)pcVar3;
+  *(undefined4 *)(param_1 + 4) = *(undefined4 *)(pcVar3 + 4);
+  *(undefined4 *)(param_1 + 8) = *(undefined4 *)(pcVar3 + 8);
+  *(undefined4 *)(param_1 + 0xc) = *(undefined4 *)(pcVar3 + 0xc);
+  return (uint)pcVar3 & 0xffff0000;
+}
+
+
+
+// FUNCTION 00402ed0 FUN_00402ed0
+
+void FUN_00402ed0(void)
+
+{
+  char cVar1;
+  bool bVar2;
+  char *_Memory;
+  int iVar3;
+  uint uVar4;
+  int iVar5;
+  FILE *_File;
+  uint uVar6;
+  uint uVar7;
+  char *pcVar8;
+  WPARAM wParam;
+  char *pcVar9;
+  void **ppvVar10;
+  uint uStack_6c;
+  WPARAM WStack_64;
+  uint uStack_5c;
+  char *pcStack_58;
+  void *local_54;
+  undefined1 uStack_4f;
+
+  local_54 = malloc(0x21);
+  _Memory = malloc(0x50);
+  iVar3 = Ordinal_2707();
+  uVar4 = SendMessageA(*(HWND *)(iVar3 + 0x20),0x18b,0,0);
+  if (uVar4 != 0) {
+    iVar5 = Ordinal_5139(0x3fe,0xf0,0,0);
+    if (iVar5 == 0) {
+      pcVar8 = &DAT_00405220;
+    }
+    else {
+      pcVar8 = (char *)&DAT_00405224;
+    }
+    uVar6 = 0xffffffff;
+    do {
+      pcVar9 = pcVar8;
+      if (uVar6 == 0) break;
+      uVar6 = uVar6 - 1;
+      pcVar9 = pcVar8 + 1;
+      cVar1 = *pcVar8;
+      pcVar8 = pcVar9;
+    } while (cVar1 != '\0');
+    uVar6 = ~uVar6;
+    pcVar8 = pcVar9 + -uVar6;
+    pcVar9 = &stack0xffffff7c;
+    for (uVar7 = uVar6 >> 2; uVar7 != 0; uVar7 = uVar7 - 1) {
+      *(undefined4 *)pcVar9 = *(undefined4 *)pcVar8;
+      pcVar8 = pcVar8 + 4;
+      pcVar9 = pcVar9 + 4;
+    }
+    for (uVar6 = uVar6 & 3; uVar6 != 0; uVar6 = uVar6 - 1) {
+      *pcVar9 = *pcVar8;
+      pcVar8 = pcVar8 + 1;
+      pcVar9 = pcVar9 + 1;
+    }
+    Ordinal_5139(0x3f5,0xd,0x1e,iVar3);
+    _File = fopen(pcStack_58,&stack0xffffff8c);
+    if (_File != (FILE *)0x0) {
+      uStack_5c = 0;
+      wParam = 0;
+      if (uVar4 != 0) {
+        do {
+          SendMessageA(*(HWND *)(iVar3 + 0x20),0x189,wParam,(LPARAM)&local_54);
+          uStack_4f = 0;
+          uVar6 = atoi((char *)&local_54);
+          if (uStack_5c < uVar6) {
+            uStack_5c = uVar6;
+          }
+          wParam = wParam + 1;
+        } while (wParam < uVar4);
+      }
+      uStack_6c = 0;
+      do {
+        bVar2 = false;
+        WStack_64 = 0;
+        if (uVar4 != 0) {
+          do {
+            SendMessageA(*(HWND *)(iVar3 + 0x20),0x189,WStack_64,(LPARAM)_Memory);
+            uVar6 = 0xffffffff;
+            pcVar8 = _Memory;
+            do {
+              pcVar9 = pcVar8;
+              if (uVar6 == 0) break;
+              uVar6 = uVar6 - 1;
+              pcVar9 = pcVar8 + 1;
+              cVar1 = *pcVar8;
+              pcVar8 = pcVar9;
+            } while (cVar1 != '\0');
+            uVar6 = ~uVar6;
+            pcVar8 = pcVar9 + -uVar6;
+            ppvVar10 = &local_54;
+            for (uVar7 = uVar6 >> 2; uVar7 != 0; uVar7 = uVar7 - 1) {
+              *ppvVar10 = *(void **)pcVar8;
+              pcVar8 = pcVar8 + 4;
+              ppvVar10 = ppvVar10 + 1;
+            }
+            for (uVar6 = uVar6 & 3; uVar6 != 0; uVar6 = uVar6 - 1) {
+              *(char *)ppvVar10 = *pcVar8;
+              pcVar8 = pcVar8 + 1;
+              ppvVar10 = (void **)((int)ppvVar10 + 1);
+            }
+            uStack_4f = 0;
+            uVar6 = atoi((char *)&local_54);
+            if (uVar6 == uStack_6c) {
+              if (bVar2) {
+                fprintf(_File,&DAT_0040521c,_Memory + 6);
+              }
+              else {
+                fprintf(_File,&DAT_0040521c,_Memory);
+                bVar2 = true;
+              }
+              if (uStack_6c == 0) {
+                fprintf(_File,&DAT_00405218);
+              }
+            }
+            WStack_64 = WStack_64 + 1;
+          } while (WStack_64 < uVar4);
+        }
+        if (bVar2) {
+          if (uStack_6c == 0) {
+            pcVar8 = s______RESULTS_OF_SCAN_FOLLOW______004051e0;
+          }
+          else {
+            pcVar8 = s_END_PORT_INFO_00405204;
+          }
+          fprintf(_File,pcVar8);
+        }
+        uStack_6c = uStack_6c + 1;
+      } while (uStack_6c <= uStack_5c);
+      fclose(_File);
+    }
+  }
+  free(pcStack_58);
+  free(_Memory);
+  return;
+}
+
+
+
+// FUNCTION 004031e0 FUN_004031e0
+
+void __cdecl FUN_004031e0(char *param_1,int param_2)
+
+{
+  char cVar1;
+  uint uVar2;
+  uint uVar3;
+  int iVar4;
+  char *pcVar5;
+  char *pcVar6;
+  char local_c [12];
+
+  switch(param_2) {
+  case 0x271e:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAEFAULT_004052f8;
+    break;
+  default:
+    iVar4 = 0;
+    _itoa(param_2,local_c,10);
+    uVar2 = 0xffffffff;
+    pcVar5 = local_c;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    pcVar6 = param_1;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)pcVar6 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      pcVar6 = pcVar6 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *pcVar6 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      pcVar6 = pcVar6 + 1;
+    }
+    cVar1 = *param_1;
+    while (cVar1 != '\0') {
+      iVar4 = iVar4 + 1;
+      cVar1 = param_1[iVar4];
+    }
+    uVar2 = 0xffffffff;
+    pcVar5 = s___UNDEFINED_ERROR__00405228;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    pcVar6 = param_1 + iVar4;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)pcVar6 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      pcVar6 = pcVar6 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *pcVar6 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      pcVar6 = pcVar6 + 1;
+    }
+    return;
+  case 0x2726:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAEINVAL_004052ec;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x2728:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAEMFILE_004052d4;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x2733:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAEWOULDBLOCK_00405288;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x2734:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAEINPROGRESS_00405340;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x2736:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAENOTSOCK_004052a8;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x2739:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAEPROTOTYPE_00405264;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x273b:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAEPROTONOSUPPORT_00405274;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x273c:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAESOCKTNOSUPPORT_00405250;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x273f:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAEAFNOSUPPORT_00405318;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x2740:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAEADDRINUSE_00405350;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x2741:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAEADDRNOTAVAIL_0040532c;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x2742:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAENETDOWN_00405360;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x2743:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAENETUNREACH_004052c4;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x2747:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAENOBUFS_004052b8;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x2748:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAEISCONN_004052e0;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x2749:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAENOTCONN_00405240;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x274c:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAETIMEDOUT_00405298;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x274d:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSAECONNREFUSED_00405304;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  case 0x276d:
+    uVar2 = 0xffffffff;
+    pcVar5 = s_WSANOTINITIALISED_00405370;
+    do {
+      pcVar6 = pcVar5;
+      if (uVar2 == 0) break;
+      uVar2 = uVar2 - 1;
+      pcVar6 = pcVar5 + 1;
+      cVar1 = *pcVar5;
+      pcVar5 = pcVar6;
+    } while (cVar1 != '\0');
+    uVar2 = ~uVar2;
+    pcVar5 = pcVar6 + -uVar2;
+    for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+      *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+      pcVar5 = pcVar5 + 4;
+      param_1 = param_1 + 4;
+    }
+    for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+      *param_1 = *pcVar5;
+      pcVar5 = pcVar5 + 1;
+      param_1 = param_1 + 1;
+    }
+    return;
+  }
+  do {
+    pcVar6 = pcVar5;
+    if (uVar2 == 0) break;
+    uVar2 = uVar2 - 1;
+    pcVar6 = pcVar5 + 1;
+    cVar1 = *pcVar5;
+    pcVar5 = pcVar6;
+  } while (cVar1 != '\0');
+  uVar2 = ~uVar2;
+  pcVar5 = pcVar6 + -uVar2;
+  for (uVar3 = uVar2 >> 2; uVar3 != 0; uVar3 = uVar3 - 1) {
+    *(undefined4 *)param_1 = *(undefined4 *)pcVar5;
+    pcVar5 = pcVar5 + 4;
+    param_1 = param_1 + 4;
+  }
+  for (uVar2 = uVar2 & 3; uVar2 != 0; uVar2 = uVar2 - 1) {
+    *param_1 = *pcVar5;
+    pcVar5 = pcVar5 + 1;
+    param_1 = param_1 + 1;
+  }
+  return;
+}
+
+
+
+// FUNCTION 004036a0 Ordinal_706
+
+void Ordinal_706(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004036a0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_706();
+  return;
+}
+
+
+
+// FUNCTION 004036a6 Ordinal_3047
+
+void Ordinal_3047(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004036a6. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_3047();
+  return;
+}
+
+
+
+// FUNCTION 004036ac Ordinal_486
+
+void Ordinal_486(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004036ac. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_486();
+  return;
+}
+
+
+
+// FUNCTION 004036f4 Ordinal_538
+
+void Ordinal_538(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004036f4. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_538();
+  return;
+}
+
+
+
+// FUNCTION 004036fa Ordinal_274
+
+void Ordinal_274(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004036fa. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_274();
+  return;
+}
+
+
+
+// FUNCTION 00403700 Ordinal_731
+
+void Ordinal_731(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x00403700. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_731();
+  return;
+}
+
+
+
+// FUNCTION 00403706 Ordinal_2557
+
+void Ordinal_2557(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x00403706. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_2557();
+  return;
+}
+
+
+
+// FUNCTION 004037d8 Ordinal_721
+
+void Ordinal_721(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004037d8. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_721();
+  return;
+}
+
+
+
+// FUNCTION 004037de Ordinal_504
+
+void Ordinal_504(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004037de. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_504();
+  return;
+}
+
+
+
+// FUNCTION 004037e4 Ordinal_2199
+
+void Ordinal_2199(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004037e4. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_2199();
+  return;
+}
+
+
+
+// FUNCTION 004037ea Ordinal_2299
+
+void Ordinal_2299(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004037ea. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_2299();
+  return;
+}
+
+
+
+// FUNCTION 004037f0 Ordinal_1060
+
+void Ordinal_1060(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004037f0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_1060();
+  return;
+}
+
+
+
+// FUNCTION 004037f6 Ordinal_1100
+
+void Ordinal_1100(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004037f6. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_1100();
+  return;
+}
+
+
+
+// FUNCTION 004037fc Ordinal_570
+
+void Ordinal_570(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004037fc. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_570();
+  return;
+}
+
+
+
+// FUNCTION 00403802 Ordinal_4165
+
+void Ordinal_4165(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x00403802. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_4165();
+  return;
+}
+
+
+
+// FUNCTION 00403820 Ordinal_4173
+
+void Ordinal_4173(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x00403820. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_4173();
+  return;
+}
+
+
+
+// FUNCTION 004038c2 Ordinal_315
+
+void Ordinal_315(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004038c2. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_315();
+  return;
+}
+
+
+
+// FUNCTION 004038c8 Ordinal_1014
+
+void Ordinal_1014(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004038c8. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_1014();
+  return;
+}
+
+
+
+// FUNCTION 004038ce Ordinal_1035
+
+void Ordinal_1035(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004038ce. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_1035();
+  return;
+}
+
+
+
+// FUNCTION 004038d4 Ordinal_2065
+
+void Ordinal_2065(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004038d4. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_2065();
+  return;
+}
+
+
+
+// FUNCTION 004038da Ordinal_1996
+
+void Ordinal_1996(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004038da. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_1996();
+  return;
+}
+
+
+
+// FUNCTION 004038e0 Ordinal_2072
+
+void Ordinal_2072(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004038e0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_2072();
+  return;
+}
+
+
+
+// FUNCTION 004038e6 Ordinal_5139
+
+void Ordinal_5139(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004038e6. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_5139();
+  return;
+}
+
+
+
+// FUNCTION 004038ec Ordinal_2707
+
+void Ordinal_2707(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004038ec. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_2707();
+  return;
+}
+
+
+
+// FUNCTION 004038f2 Ordinal_3656
+
+void Ordinal_3656(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004038f2. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_3656();
+  return;
+}
+
+
+
+// FUNCTION 004038f8 Ordinal_2514
+
+void Ordinal_2514(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x004038f8. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_2514();
+  return;
+}
+
+
+
+// FUNCTION 00403930 FUN_00403930
+
+void __cdecl FUN_00403930(_onexit_t param_1)
+
+{
+  DWORD DVar1;
+
+  if (DAT_00405384 == 0) {
+    DVar1 = GetVersion();
+    if (((DVar1 & 0xff) == 3) && ((DVar1 & 0x80000000) != 0)) {
+      DAT_00405384 = DAT_00405384 + 1;
+    }
+    else {
+      DAT_00405384 = DAT_00405384 + -1;
+    }
+  }
+  if (0 < DAT_00405384) {
+    while (0 < DAT_00405388) {
+      Sleep(0);
+    }
+    DAT_00405388 = DAT_00405388 + 1;
+  }
+  if (DAT_00405480 == -1) {
+    _onexit(param_1);
+  }
+  else {
+    __dllonexit(param_1,&DAT_00405480,&DAT_0040547c);
+  }
+  if (0 < DAT_00405384) {
+    DAT_00405388 = DAT_00405388 + -1;
+  }
+  return;
+}
+
+
+
+// FUNCTION 004039d0 FUN_004039d0
+
+int __cdecl FUN_004039d0(_onexit_t param_1)
+
+{
+  int iVar1;
+
+  iVar1 = FUN_00403930(param_1);
+  return -(uint)(iVar1 == 0);
+}
+
+
+
+// FUNCTION 004039f0 entry
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void entry(void)
+
+{
+  byte bVar1;
+  undefined4 *puVar2;
+  uint uVar3;
+  HMODULE pHVar4;
+  int _Code;
+  byte *pbVar5;
+  undefined4 *unaff_FS_OFFSET;
+  undefined4 uVar7;
+  _STARTUPINFOA local_8c;
+  int local_40;
+  char **local_3c;
+  char **local_38 [3];
+  _startupinfo local_2c [4];
+  undefined1 *local_1c;
+  undefined4 uStack_14;
+  undefined *puStack_10;
+  undefined *puStack_c;
+  undefined4 local_8;
+  byte *pbVar6;
+
+  uStack_14 = *unaff_FS_OFFSET;
+  puStack_c = &DAT_00404410;
+  puStack_10 = &DAT_00403be2;
+  *unaff_FS_OFFSET = &uStack_14;
+  local_1c = &stack0xffffff68;
+  local_8 = 0;
+  __set_app_type(2);
+  DAT_0040547c = 0xffffffff;
+  DAT_00405480 = 0xffffffff;
+  puVar2 = (undefined4 *)__p__fmode();
+  *puVar2 = DAT_0040539c;
+  puVar2 = (undefined4 *)__p__commode();
+  *puVar2 = DAT_00405398;
+  _DAT_00405478 = *(undefined4 *)_adjust_fdiv_exref;
+  FUN_00403be0();
+  if (DAT_00405394 == 0) {
+    __setusermatherr(&LAB_00403bd0);
+  }
+  __setdefaultprecision();
+  initterm(&DAT_00405010,&DAT_00405014);
+  local_2c[0].newmode = DAT_00405390;
+  __getmainargs(&local_40,&local_3c,local_38,DAT_0040538c,local_2c);
+  initterm(&DAT_00405000,&DAT_0040500c);
+  puVar2 = (undefined4 *)__p__acmdln();
+  pbVar5 = (byte *)*puVar2;
+  bVar1 = *pbVar5;
+  if (bVar1 == 0x22) {
+    do {
+      pbVar6 = pbVar5;
+      pbVar5 = pbVar6 + 1;
+      if (*pbVar5 == 0) break;
+    } while (*pbVar5 != 0x22);
+    if (*pbVar5 == 0x22) {
+      pbVar5 = pbVar6 + 2;
+    }
+  }
+  else {
+    while (0x20 < bVar1) {
+      pbVar5 = pbVar5 + 1;
+      bVar1 = *pbVar5;
+    }
+  }
+  bVar1 = *pbVar5;
+  while ((bVar1 != 0 && (*pbVar5 < 0x21))) {
+    pbVar5 = pbVar5 + 1;
+    bVar1 = *pbVar5;
+  }
+  local_8c.dwFlags = 0;
+  GetStartupInfoA(&local_8c);
+  uVar3 = 10;
+  if ((local_8c.dwFlags & 1) != 0) {
+    uVar3 = local_8c._48_4_ & 0xffff;
+  }
+  uVar7 = 0;
+  pHVar4 = GetModuleHandleA((LPCSTR)0x0);
+  _Code = _WinMain_16(pHVar4,uVar7,pbVar5,uVar3);
+                    /* WARNING: Subroutine does not return */
+  exit(_Code);
+}
+
+
+
+// FUNCTION 00403b92 __dllonexit
+
+void __dllonexit(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x00403b92. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  __dllonexit();
+  return;
+}
+
+
+
+// FUNCTION 00403b98 _XcptFilter
+
+int __cdecl _XcptFilter(ulong _ExceptionNum,_EXCEPTION_POINTERS *_ExceptionPtr)
+
+{
+  int iVar1;
+
+                    /* WARNING: Could not recover jumptable at 0x00403b98. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  iVar1 = _XcptFilter(_ExceptionNum,_ExceptionPtr);
+  return iVar1;
+}
+
+
+
+// FUNCTION 00403b9e initterm
+
+void __cdecl initterm(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x00403b9e. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  initterm();
+  return;
+}
+
+
+
+// FUNCTION 00403bb0 __setdefaultprecision
+
+/* Library Function - Single Match
+    __setdefaultprecision
+
+   Library: Visual Studio 1998 Release */
+
+void __setdefaultprecision(void)
+
+{
+  _controlfp(0x10000,0x30000);
+  return;
+}
+
+
+
+// FUNCTION 00403be0 FUN_00403be0
+
+void FUN_00403be0(void)
+
+{
+  return;
+}
+
+
+
+// FUNCTION 00403be8 _controlfp
+
+uint __cdecl _controlfp(uint _NewValue,uint _Mask)
+
+{
+  uint uVar1;
+
+                    /* WARNING: Could not recover jumptable at 0x00403be8. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  uVar1 = _controlfp(_NewValue,_Mask);
+  return uVar1;
+}
+
+
+
+// FUNCTION 00403bee WSAGetLastError
+
+int WSAGetLastError(void)
+
+{
+  int iVar1;
+
+                    /* WARNING: Could not recover jumptable at 0x00403bee. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  iVar1 = WSAGetLastError();
+  return iVar1;
+}
+
+
+
+// FUNCTION 00403bf4 gethostname
+
+int gethostname(char *name,int namelen)
+
+{
+  int iVar1;
+
+                    /* WARNING: Could not recover jumptable at 0x00403bf4. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  iVar1 = gethostname(name,namelen);
+  return iVar1;
+}
+
+
+
+// FUNCTION 00403bfa WSAStartup
+
+int WSAStartup(WORD wVersionRequired,LPWSADATA lpWSAData)
+
+{
+  int iVar1;
+
+                    /* WARNING: Could not recover jumptable at 0x00403bfa. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  iVar1 = WSAStartup(wVersionRequired,lpWSAData);
+  return iVar1;
+}
+
+
+
+// FUNCTION 00403c00 WSACleanup
+
+int WSACleanup(void)
+
+{
+  int iVar1;
+
+                    /* WARNING: Could not recover jumptable at 0x00403c00. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  iVar1 = WSACleanup();
+  return iVar1;
+}
+
+
+
+// FUNCTION 00403c06 inet_ntoa
+
+char * inet_ntoa(in_addr in)
+
+{
+  char *pcVar1;
+
+                    /* WARNING: Could not recover jumptable at 0x00403c06. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pcVar1 = inet_ntoa(in);
+  return pcVar1;
+}
+
+
+
+// FUNCTION 00403c0c inet_addr
+
+ulong inet_addr(char *cp)
+
+{
+  ulong uVar1;
+
+                    /* WARNING: Could not recover jumptable at 0x00403c0c. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  uVar1 = inet_addr(cp);
+  return uVar1;
+}
+
+
+
+// FUNCTION 00403c12 gethostbyname
+
+hostent * gethostbyname(char *name)
+
+{
+  hostent *phVar1;
+
+                    /* WARNING: Could not recover jumptable at 0x00403c12. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  phVar1 = gethostbyname(name);
+  return phVar1;
+}
+
+
+
+// FUNCTION 00403c18 _WinMain@16
+
+/* Library Function - Single Match
+    _WinMain@16
+
+   Library: Visual Studio 1998 Release */
+
+void _WinMain_16(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4)
+
+{
+  Ordinal_1368(param_1,param_2,param_3,param_4);
+  return;
+}
+
+
+
+// FUNCTION 00403c31 FUN_00403c31
+
+undefined4 FUN_00403c31(int param_1,undefined4 param_2)
+
+{
+  int iVar1;
+
+  iVar1 = Ordinal_1035();
+  *(char *)(iVar1 + 0x14) = (char)param_1;
+  *(undefined4 *)(iVar1 + 0x1040) = param_2;
+  if (param_1 == 0) {
+    _setmbcp(-3);
+  }
+  return 1;
+}
+
+
+
+// FUNCTION 00403c80 Ordinal_1368
+
+void Ordinal_1368(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x00403c80. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  Ordinal_1368();
+  return;
+}
