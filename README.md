@@ -4,6 +4,12 @@ An independent 64-bit Windows rebuild of the 1997 **7th Sphere PortScan 1.1** GU
 
 > This is a behavioral rebuild, not recovered original source code. The original executable is not included.
 
+## Original application reference
+
+The image below is a user-supplied screenshot of the original 32-bit Windows application. It is shown as a reference for the rebuild; the original executable is not included.
+
+![Original 7th Sphere PortScan 1.1 window, user-supplied reference screenshot](docs/images/original-7th-sphere-portscan-1.1.png)
+
 ## Download and run
 
 The current Windows x64 build is in [`dist/7th-sphere-portscan-rebuild.exe`](dist/7th-sphere-portscan-rebuild.exe). Run it with no arguments to open the resizable GUI.
